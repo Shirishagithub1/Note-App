@@ -1,0 +1,72 @@
+
+body {
+    font-family: sans-serif;
+    
+  
+background-image: url(https://img.lovepik.com/background/20211021/large/lovepik-color-abstract-background-image_400726603.jpg);
+  }
+  
+  .container {
+    display: flex;
+    gap: 50px;
+  }
+  
+  
+  #posts {
+    width: 400px;
+  }
+  
+  #posts div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .options {
+    display: flex;
+    gap: 25px;
+  }
+  
+  i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: red;
+  }
+
+  #note{
+    color: brown;
+    background-color: rgb(109, 109, 145);
+    border: 2px solid black;
+  }
+  #addbtn{
+    background-color: red;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+  }
+  #btn2{
+    background-color: rgb(151, 27, 79) ;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+  }
+  #btn4{
+    background-color: rgb(70, 60, 7);
+    border-radius: 10px;
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+   
+  }
+  #img{
+    height: 300px;
+  }
+  #foot{
+    height: 130px;
+    text-align: center;
+    margin-left: 800px;
+  }
